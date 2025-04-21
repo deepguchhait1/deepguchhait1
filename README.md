@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/Manish652/Manish652/blob/main/name.png?raw=true" width="100%" alt="Manish Bhunia - Web Developer">
+<!--   <img src="https://github.com/Manish652/Manish652/blob/main/name.png?raw=true" width="100%" alt="Manish Bhunia - Web Developer"> -->
 </div>
 
 # <div align="center">**HELLO WORLD🌍 ! I'M Deep** 👋</div>
@@ -30,11 +30,11 @@
 ```python
 class Developer:
     def __init__(self):
-        self.name = "Manish Bhunia"
+        self.name = "Deep Guchhait"
         self.role = "2nd Year Student & Developer"
-        self.languages = ["Python", "JavaScript", "C++", "Java"]
+        self.languages = ["Python", "JavaScript", "C++"]
         self.speaks = ["Bengali", "English", "Hindi"]
-        self.focus = "Backend & Cybersecurity"
+        self.focus = "Backend in Django"
         self.interests = ["Web Security", "System Design", "AI/ML", "Open Source"]
     
     def hello(self):
@@ -100,7 +100,7 @@ class Developer:
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Manish652&theme=tokyonight&margin-w=15&margin-h=15&column=7" />
+<!--   <img src="https://github-profile-trophy.vercel.app/?username=Manish652&theme=tokyonight&margin-w=15&margin-h=15&column=7" /> -->
 </div>
 
 <br/>
@@ -112,16 +112,16 @@ class Developer:
 ## 📫 Connect With Me
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/manish-bhunia-99637a28b/">
+<!--   <a href="https://www.linkedin.com/in/manish-bhunia-99637a28b/"> -->
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank">
   </a>
-  <a href="https://twitter.com/ManishBhunia">
+<!--   <a href="https://twitter.com/ManishBhunia"> -->
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank">
   </a>
-  <a href="https://github.com/Manish652">
+<!--   <a href="https://github.com/Manish652"> -->
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank">
   </a>
-  <a href="mailto:manishbhunia@gmail.com">
+<!--   <a href="mailto:manishbhunia@gmail.com"> -->
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
   </a>
 </div>
