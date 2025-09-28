@@ -19,63 +19,28 @@
 <br>
 
 ```js
-// Import Express
 const express = require("express");
 const app = express();
 const PORT = 5000;
 
-// Developer Class
-class Developer {
-  constructor() {
-    this.name = "Deep Guchhait";
-    this.role = "3rd Year Student & Developer";
-    this.languages = ["JavaScript", "C++","Python", "Java"];
-    this.speaks = ["Bengali", "English", "Hindi"];
-    this.focus = "MERN";
-    this.interests = ["Web Security", "System Design", "Soket.io","JWT"];
-  }
+const dev = {
+  name: "Deep Guchhait",
+  role: "3rd Year Student & Developer",
+  languages: ["JavaScript", "C++", "Python", "Java"],
+  speaks: ["Bengali", "English", "Hindi"],
+  focus: "MERN",
+  interests: ["Web Security", "System Design", "Socket.io", "JWT"],
+};
 
-  hello() {
-    return "Thanks for visiting! Let's build something amazing 🚀";
-  }
+app.get("/", (req, res) =>
+  res.send("Thanks for visiting! Let's build something amazing 🚀")
+);
+app.get("/about", (req, res) => res.json(dev));
+app.get("/projects", (req, res) => res.json(dev.projects));
 
-  projects() {
-    return [
-      "Scalable Microservices",
-      "Pentesting Tools",
-      "CI/CD Automation",
-      "3D Web Interfaces"
-    ];
-  }
-}
-
-// Create instance
-const dev = new Developer();
-
-// Routes
-app.get("/", (req, res) => {
-  res.send(dev.hello());
-});
-
-app.get("/about", (req, res) => {
-  res.json({
-    name: dev.name,
-    role: dev.role,
-    languages: dev.languages,
-    speaks: dev.speaks,
-    focus: dev.focus,
-    interests: dev.interests,
-  });
-});
-
-app.get("/projects", (req, res) => {
-  res.json(dev.projects());
-});
-
-// Start Server
-app.listen(PORT, () => {
-  console.log(`🚀 Server running at http://localhost:${PORT}`);
-});
+app.listen(PORT, () =>
+  console.log(`🚀 Server running at http://localhost:${PORT}`)
+);
 ```
 
 
