@@ -55,12 +55,6 @@ app.listen(PORT, () =>
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepguchhait1&layout=compact&theme=radical" alt="Top Languages" />
-  
-</p>
-
 ---
 
 ## 🐍 Contribution Graph
